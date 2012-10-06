@@ -19,6 +19,7 @@ body{
 
 .logo{
 	margin-left:50px;
+
 }
 
 h1{
@@ -27,6 +28,7 @@ h1{
 	width:500px;
 	left:auto;
 	right:auto;
+	margin-top:10px;
 }
 
 h2{
@@ -46,8 +48,8 @@ button{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-style:strong;
   padding: 20px 50px;
-  border-radius: 4px;
-  margin-top: 200px;
+  border-radius:4px;
+  margin-top: 150px;
   margin-left:-180px;
   cursor: pointer;
 }
@@ -61,14 +63,15 @@ button{
   	padding-left:auto;
   	padding-right:auto;
   	margin-left:350px;
-  	margin-top:-250px;
+  	margin-top:-320px;
 }
 
 .challenge{
 	font-family:'Open Sans', sans-serif;
-	margin-top:-250px;
+	margin-top:-310px;
 	margin-left:50px;
 	width:850px;
+	font-size:14px;
 }
 
 h3{
@@ -81,7 +84,7 @@ h3{
 aside{
 	color: #4d4d4d;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 	margin-left:50px;
 }
 
