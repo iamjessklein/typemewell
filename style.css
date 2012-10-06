@@ -42,13 +42,13 @@ h2{
 
 .button.no-arrow
 {
- position: relative;
+
   background: #ED1D5B;
   color:white;
   font-size:20px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-style:strong;
-  margin-top:-150px;
+  margin-top:-140px;
   padding: 20px 50px;
   border-radius:4px; 
   cursor: pointer;
