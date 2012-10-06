@@ -3,20 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Webmaker Nav</title>
-  <meta name="viewport" content="width=device-width">
-
-  <link rel="stylesheet" href="style/normalize.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+  <title>type me well</title>
+  <meta name="keywords" content="game, typography, webmaker, experiment, html, css, css3" />
+  <meta name="description" content=" A CSS typography challenge" />
+  
+  <link rel="icon" src="images/favicon.ico">
+  <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//www.mozilla.org/tabzilla/media/css/tabzilla.css">
+  <link rel="stylesheet" href="style/dialogs.css">
   <link rel="stylesheet" href="webmaker-nav.css">
+  
+	<style type="text/css" media="screen">
+		h1.fontface {font: 72px 'PatuaOneRegular', Arial, sans-serif;letter-spacing: 0; color:#ED1D5B;}
 
+		h2.style1 {font: 31px 'PatuaOneRegular', Arial, sans-serif;color:#4D4D4D;}
+		
+		#container {
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
 </head>
+
 <body class="webmaker-not-logged-in">
-  <header>
-    <a href="http://www.mozilla.org/" id="tabzilla">mozilla</a>
-    <!-- Begin webmaker nav -->
-    <div class="webmaker-nav-container">
+	<header>
+	 <a href="http://www.mozilla.org/" id="tabzilla">mozilla</a>
+	 
+<!-- universal nav -->
+
+<div class="webmaker-nav-container">
 
       <div class="webmaker-nav-top">
         <ul class="webmaker-nav primary">
@@ -76,23 +93,39 @@
       </div>
 
     </div>
-    <!-- / webmaker nav -->
-    <div class="main-header">
-      <span class="logo"></span>
-      <span class="breadcrumbs"></span>
-      <span class="project-title">My Project</span>
-    </div>
-  </header>
-  <div class="main">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <script src="webmaker-nav.js"></script>
+    
+ <!-- / webmaker nav -->
+   <script src="webmaker-nav.js"></script>
   <script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
+  </header>
+
+  </div>
+
 </body>
+<!--logo content -->
+
+  <div class="logo">
+    <h1 class="fontface">Type me well.</h1>
+    <h2 class= "style1"> a <span style="color:#00BFF3;">CSS typography</span> challenge </h2>
+  </div>
+<!-- bookmarklet goes here -->
+<button type="button"> X-Ray Goggles</button> 
+
+<!--word that needs kerning -->
+
+  <div class="editword">
+  	<p>lett<span style="letter-spacing:-48px";>er</span></p>
+  </div>
+  
+<!--challenge -->
+
+  <div class="challenge">
+    <h3>Challenge 1: </h3>
+    <p>Adjust the space between the letters in the word above to make it appear more visually pleasing and balanced. Typographers call this kerning. In web design, you can do this by adjusting pixels under the CSS property<br><span style="color:#00BFF3;font-style:strong;"> letter-spacing</span>. Get started by clicking the pink X-Ray Goggles button. Hover over the part of the type that needs to be changed and then change the CSS by clicking C and the spacebar at the same time. When you finish the challenge click the submit button.</p>
+  </div>
+  
+<!--inspiration notes -->
+
+<aside>This game is inspired by the <a href="http://type.method.ac/"> work of Mark MacKay</a> </aside>
 </html>
 

@@ -1,9 +1,103 @@
+body{
+	background-color:#EEEFE9;
+}
+
+
+
+@font-face {
+    font-family: 'PatuaOneRegular';
+    src: url('PatuaOne-Regular-webfont.eot');
+    src: url('PatuaOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('PatuaOne-Regular-webfont.woff') format('woff'),
+         url('PatuaOne-Regular-webfont.ttf') format('truetype'),
+         url('PatuaOne-Regular-webfont.svg#PatuaOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    top:auto;
+
+}
+
+.logo{
+	margin-left:50px;
+}
+
+h1{
+	letter-spacing:normal;
+	line-height:72px;
+	width:500px;
+	left:auto;
+	right:auto;
+}
+
+h2{
+	letter-spacing:normal;
+	line-height:31px;
+	margin-top:-50px;
+	font-weight:400px;
+	width:500px;
+
+}
+
+button{
+ position: relative;
+  background: #ED1D5B;
+  color:white;
+  font-size:20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style:strong;
+  padding: 20px 50px;
+  border-radius: 4px;
+  margin-top: 200px;
+  margin-left:-180px;
+  cursor: pointer;
+}
+
+
+.editword{
+	color:#4d4d4d;
+	font-family: "HelveticaNeue","Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  	font-weight:300px;
+  	font-size:302px;
+  	padding-left:auto;
+  	padding-right:auto;
+  	margin-left:350px;
+  	margin-top:-250px;
+}
+
+.challenge{
+	font-family:'Open Sans', sans-serif;
+	margin-top:-250px;
+	margin-left:50px;
+	width:850px;
+}
+
+h3{
+	color:#4d4d4d;
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	font-style:strong;
+}
+
+aside{
+	color: #4d4d4d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin-left:50px;
+}
+
+
+/* UNIVERSAL NAV */
+
 header {
   position: relative;
 }
 a:hover {
   color: #3985ed;
 }
+
+
+
+
 /*********************************************************
 * Webmaker nav
 */
@@ -118,7 +212,7 @@ a:hover {
 .feedback-icon {
   margin-top: 5px;
   float: left;
-  background: url("img/feedback-icon.png");
+  background: url("images/feedback-icon.png");
   height: 18px;
   width: 20px;
 }
