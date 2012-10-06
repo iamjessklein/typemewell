@@ -40,7 +40,8 @@ h2{
 
 }
 
-button{
+.button.no-arrow
+{
  position: relative;
   background: #ED1D5B;
   color:white;
@@ -49,7 +50,7 @@ button{
   font-style:strong;
   padding: 20px 50px;
   border-radius:4px;
-  margin-top: 150px;
+  margin-top: -300px;
   margin-left:-180px;
   cursor: pointer;
 }
